@@ -8,6 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <title>My PhpMyAdmin - ETNA</title>
+  <link rel="shortcut icon" href="img/logo_pma.png">
   <link href="assets/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <link href="assets/dataTables.bootstrap4.css" rel="stylesheet">

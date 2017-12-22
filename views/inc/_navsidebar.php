@@ -1,5 +1,7 @@
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark-extreme fixed-top" id="mainNav">
-    <a class="navbar-brand" href="index.php">My PhpMyAdmin</a>
+    <a class="navbar-brand" href="index.php">
+      <img src="img/logo_pma.png">
+  </a>
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -52,10 +54,10 @@
             
           </ul>
         </li>
-        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Link">
-          <a class="nav-link" href="#">
-            <i class="fa fa-fw fa-link"></i>
-            <span class="nav-link-text">Another Link</span>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Logout">
+          <a class="nav-link" href="?controller=index&action=logoutProcess">
+            <i class="fa fa-fw fa-sign-out"></i>
+            <span class="nav-link-text">Logout</span>
           </a>
         </li>
       </ul>
@@ -64,7 +66,7 @@
           <div class="dropdown">
             <a href="" class="nav-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-fw fa-user"></i> <?php echo $user["login"] ?></a>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" data-toggle="modal" data-target="#exampleModal">
+              <a class="dropdown-item" data-toggle="modal" data-target="">
                 <i class="fa fa-fw fa-edit"></i> Edit</a>
               <a class="dropdown-item" data-toggle="modal" data-target="#exampleModal">
                 <i class="fa fa-fw fa-sign-out"></i> Logout</a>

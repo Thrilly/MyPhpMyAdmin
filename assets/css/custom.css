@@ -49,3 +49,7 @@ footer.sticky-footer {
 .navbar-collapse .navbar-sidenav > .nav-item, .navbar-collapse .navbar-sidenav > .nav-item li {
     width: 290px !important;
 }
+
+.navbar img{
+    width: 50px;
+}
