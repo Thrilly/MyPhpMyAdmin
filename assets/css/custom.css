@@ -1,0 +1,51 @@
+/*############# INFOBAR #############*/
+.infobar{
+    width: 100%;
+    height: 50px;
+    padding-left: 315px;
+    padding-top: 10px;
+    color: #EEE;
+    z-index: 2;
+    position: fixed;
+    font-size: 1.1em;
+}
+
+body{
+	font-size: 0.9em;
+}
+
+#menu{
+    font-size: 0.9em;
+}
+
+.dropdown{
+	text-align: center;
+}
+
+.bg-dark-extreme{
+    background-color: #212529
+}
+
+.ml-auto, .mx-auto{
+    margin-left: 300px !important;
+}
+
+.sidenav-toggler, #menu{
+    width: 300px;
+}
+
+#mainNav .navbar-brand {
+    width: 265px;
+}
+
+.content-wrapper{
+    margin-left: 300px;
+}
+
+footer.sticky-footer {
+    width: calc(100% - 300px);
+}
+
+.navbar-collapse .navbar-sidenav > .nav-item, .navbar-collapse .navbar-sidenav > .nav-item li {
+    width: 290px !important;
+}
